@@ -14,4 +14,11 @@ public class ex_38 {
             this.speed = speed;
         }
     }
+    public boolean isStop(){
+        return stop;
+    }
+    public void setStop(boolean stop){
+        this.stop = stop;
+        if(stop == true) this.speed = 0;
+    }
 }
